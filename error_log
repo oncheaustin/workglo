@@ -1,0 +1,6 @@
+[02-Oct-2019 16:45:10 America/Chicago] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home1/patrice/demo.gigtodoscripts.com/orderIncludes/orderReviews.php on line 618
+[02-Oct-2019 16:45:10 America/Chicago] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home1/patrice/demo.gigtodoscripts.com/orderIncludes/orderReviews.php on line 622
+[02-Oct-2019 16:45:10 America/Chicago] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home1/patrice/demo.gigtodoscripts.com/orderIncludes/orderReviews.php on line 624
+[02-Oct-2019 16:45:10 America/Chicago] PHP Warning:  Division by zero in /home1/patrice/demo.gigtodoscripts.com/orderIncludes/orderReviews.php on line 626
+[02-Oct-2019 16:54:04 America/Chicago] PHP Fatal error:  Call to undefined function getAdminCommission() in /home1/patrice/demo.gigtodoscripts.com/orderIncludes/orderComplete.php on line 50
+[02-Oct-2019 18:07:21 America/Chicago] PHP Fatal error:  Call to a member function rowCount() on null in /home1/patrice/demo.gigtodoscripts.com/order_details.php on line 24

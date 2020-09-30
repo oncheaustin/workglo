@@ -1,0 +1,275 @@
+@charset "utf-8";
+@media screen and (max-width: 1366px) {
+/*.container { width: 1024px; }*/
+
+}
+@media screen and (max-width: 1160px) {
+.container {
+width: 100%;
+}
+.container .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 1030px) {
+.sli_text {
+    left: 50px;
+    max-width: 500px;
+    top: 50px;
+}
+.sli_text > h1{ font-size:50px;}
+.intro_welcome{background-size: 25% 100%;}
+.intro_welcome .left_tri {
+    max-width: 150px;
+    width: 50%;
+}
+.intro_welcome,#howitworks,#fea_categories,#why_workglo,#invitations,#gigs,#blogs,#partners{ padding:30px 0; }
+}
+@media screen and (max-width:990px) {
+.navbar-nav > li > a {
+    padding: 13px 15px;
+}
+#why_workglo .title_sec {
+    margin: 0;}
+	.big-text {
+    font-size: 40px;
+    line-height: 40px;
+}
+.top_people img {
+    display: inline-block;
+    float: none;
+}
+.top_people {
+    text-align: center;
+}
+}
+ @media screen and (max-width: 950px) {
+.navbar-nav > li > a {
+    font-size: 13px;
+    padding: 13px;
+}
+
+}
+ @media screen and (max-width: 900px) {
+form.navbar-form {
+    padding: 0;
+    width: auto;
+}
+.navbar-nav > li > a{ padding: 13px 10px;}
+.navbar-nav > li > a.login_btn{ margin:0 5px 0 10px;}
+.sli_text > h1 {
+    font-size: 40px;
+}
+.sli_text > p {
+    font-size: 18px;
+    line-height: 24px;
+}
+.sli_text {
+    left: 30px;
+    max-width: 400px;
+    top: 30px;
+}
+.fea_cat > li{ padding:0px;}
+.fea_cat > li a{padding:25px 0px; font-size:14px;}
+}
+@media screen and (max-width:820px) {
+form.navbar-form {
+    width: 185px;
+}
+form.navbar-form .form-control{
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+.navbar-nav > li > a {
+    padding: 13px 8px;
+}
+}
+}
+@media screen and (max-width: 767px) {
+	form.navbar-form {
+    padding: 10px 15px;
+    width: auto;
+}
+.nav.navbar-nav.navbar-right {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.navbar-default .navbar-nav > li{ width:auto;}
+	form.navbar-form .form-control{ width:100%;}
+.navbar-toggle {
+    margin-bottom: 10px;
+    margin-top: 10px;background-color: #1e91d0;
+border: medium none;
+}
+ .navbar-toggle.collapsed {
+background-color: #00b488;
+border: medium none;
+color: #1e91d0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+background-color: #1e91d0;
+border: none;
+}
+.nav.navbar-nav {
+ float: none;
+ margin: 0;
+ width: 100%;
+ display: block;
+}
+.navbar-default .navbar-nav > li > a {
+padding: 10px 14px;
+background-image: none;
+text-align:center;
+}
+.navbar-default .navbar-nav > li {
+    display: inline-block;
+    width: auto;
+}
+.navbar-collapse {
+ background-color: #fff;
+ padding: 10px;
+ position: relative;
+ text-align: right;
+ z-index: 33;
+}
+.navbar-nav .open .dropdown-menu{ background-color:#f6f6f6; text-align:center;}
+.intro_welcome {
+    background-position: left top;
+    background-size: 15% auto;
+}
+.intro_welcome .left_tri {
+    max-width: 100px;}
+.title_sec > h1 {
+    font-size: 24px;}
+	.fea_points {
+    text-align: center;
+}
+#why_workglo .title_sec{ margin-top:25px; text-align:center;}
+.gig_box {
+    margin: 10px auto;
+}
+}
+@media screen and (max-width: 740px) {
+
+}
+@media screen and (max-width: 716px) {
+
+.table td:nth-child(2) { max-width:300px; width:300px;}
+/*.table td h4,.table.table-hover p {
+    white-space: pre-line;}*/
+}
+@media screen and (max-width: 640px) {
+.sli_text > h1 {
+    font-size: 30px;
+}
+.sli_text {
+    left: 10px;
+    max-width: 360px;
+    top: 20px;
+}
+.sli_text > p {
+    font-size: 16px;
+}
+.sli_text .green_btn {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0;
+    width: auto;
+}
+}
+@media screen and (max-width: 630px) {
+	
+}
+@media screen and (max-width: 568px) {
+.sli_text > h1 {
+    font-size: 24px;
+}
+.sli_text {
+    left: 10px;
+    max-width: 300px;
+    top: 10px;
+}
+.sli_text > p {
+    font-size: 14px; line-height:18px;
+}
+.sli_text .green_btn {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0;
+    width: auto;
+}
+.fea_cat > li{ width:50%;}
+}
+@media screen and (max-width: 500px) {
+.navbar-default .navbar-nav > li > a{ padding:8px 10px;}
+.navbar-nav > li > a.login_btn {
+    margin: 0;
+}
+
+}
+@media screen and (max-width: 480px) {
+.nav.navbar-nav.navbar-right > li:nth-child(4),.nav.navbar-nav.navbar-right > li:nth-child(5) {
+    width: 48%;
+}
+.sli_text > h1 {
+    font-size: 24px;
+}
+.sli_text {
+    left: 5px;
+    max-width: 200px;
+    top: 5px;
+}
+.sli_text > p {
+   display:none;
+}
+.sli_text .green_btn {
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 0;
+    width: auto;
+}	
+.hiw_box img {
+    margin: 10px auto;
+    max-width: 80px;
+}
+.hiw_box p {
+    font-size: 14px;
+    padding: 10px 0 0;}
+	.item { text-align:center;
+}
+.item > img {
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 420px) {
+#gigs .col-xs-6{ width:100%;}
+.gig_box {
+    margin: 2px auto;
+}
+.copy { text-align:center;}
+.copy .links{ float:none;}
+}
+ @media screen and (max-width: 360px) {
+.sli_text > h1 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+.sli_text .green_btn {
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    width: auto;
+}
+
+}

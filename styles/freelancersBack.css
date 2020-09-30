@@ -1,0 +1,99 @@
+body{
+  background: #f9f9fd !important;
+}
+
+.freelancerBox {
+  min-height: 200px;
+  font-size:14px;
+}
+
+.freelancerBox:hover{
+  -webkit-box-shadow:10px 14px 20px 0 rgba(0,0,0,0.25);
+  box-shadow:10px 14px 20px 0 rgba(0,0,0,0.25);
+}
+
+.freelancerBox .star-rating{
+  text-align: right;
+}
+
+.freelancerBox .star-rating i{
+  font-size: 18px;
+  color: #fdd003;
+}
+
+.freelancerBox .request-img {
+margin-top:10px;
+width:50px;
+height:50px;
+}
+
+.freelancerBox a:hover{
+  color:black;
+}
+
+.freelancerBox .text-primary {
+font-size:1.25rem;
+}
+
+.freelancerBox .lead {
+  font-size:15px;
+  font-weight:400;
+}
+
+.freelancerBox .tagline{
+  margin-bottom:10px;
+  /*font-size: 14px;*/
+  list-style:none;
+}
+
+.freelancerBox .tagline li{
+  display:inline-block;
+  margin-right:5px;
+}
+
+.freelancerBox .skills button{
+  font-size:13px;
+  margin-right: 4px;
+  font-weight:500;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+.freelancerBox .skills button:hover{
+  background-color: #f8f9fa;
+}
+
+/* Seller Level Badge Styles */
+
+figure {
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.wt-userlistingimg {
+  width: auto;
+  float: left;
+  border-radius: 4px;
+  max-height: 100px;
+  max-width: 100px;
+  margin: 0 30px 21px 0
+}
+
+.wt-userlistingimg img {
+  width: 100%;
+  display: block;
+  /*background: #fff;*/
+  /*border-radius: 4px*/
+}
+
+.wt-userdropdown {
+  bottom: -6px;
+  right: -12px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  /*border-radius: 50%;*/
+  /*border: 3px solid #fff;*/
+  cursor: pointer;
+}

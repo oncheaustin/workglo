@@ -1,0 +1,776 @@
+.scriptolutionheadernotifycnt {
+    line-height: 26px;
+}
+.scriptolutionheadernotifycnt a {
+	color: #303030;
+}
+.scriptolutionheadernotifycntcolor {
+    line-height: 26px;
+}
+.scriptolutionheadernotifycntcolor a {
+	color: #689c2c;
+}
+.scriptolutionheadernotifycnt span {
+    background-color: #049BCF;
+    height: 17px;
+    line-height: 18px;
+    padding: 0 4px;
+    display: inline-block;
+    margin-right: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+.scriptolutionmenubutton {
+	display:none;
+}
+.scriptolutionmenubutton a {
+	font-size:28px;
+	color: #fff;
+}
+.nav-scriptolution {
+	position:absolute;
+	top:48px;
+	left:0;
+	height:470px;
+	width:260px;
+	z-index:9999;
+}
+.scriptolution-dotcom-mobile-dropdown {
+	position:absolute;
+	top:0px;
+	left:0;
+	margin-top:6px;
+	margin-left:0px;
+	background:#222;
+	border: 0px solid #ddd;
+	z-index:11;
+	padding:10px 10px;
+	width:220px;
+}
+.scriptolution-dotcom-mobile-dropdown .scriptolutionfiverrscriptitem {
+	display:block;
+	font-family:Arial,Helvetica,sans-serif;
+	padding: 5px 25px;
+	color:#F9F9F9;
+	font-size:14px;
+	transition:color 0.2s ease,background 0.2s ease;
+}
+.scriptolution-dotcom-mobile-dropdown hr {
+	margin: 9px -5px;
+    border: none;
+    border-top: 1px solid #333333;
+}
+.scriptolution-dotcom-mobile-dropdown .scriptolutionclose-nav {
+	position:absolute;
+	top:10px;
+	right:12px;
+	color:#999;
+	cursor:pointer;
+	z-index:1;
+}
+.scriptolutionmobilecats {
+	margin-top:25px;
+	display:none;
+}
+.scriptolutionmobilecats .btn-list-space {
+	position:absolute;
+	width:calc(100% - 20px);
+	text-align:center;
+	left:0;
+	padding:10px;
+	background:rgba(0,0,0,0.2);
+	z-index:3;
+}
+.scriptolutionmobilecats .btn-list-space .btn {
+	font-size:16px;
+	width:calc(50% - 5px);
+}
+.scriptolutionmobilecats .btn.outline-only.white {
+	color:#FFF;
+	border:1px solid #FFF;
+	background:rgba(255,255,255,0);
+}
+.scriptolutionmobilecats .btn {
+	padding:10px 20px;
+	border-radius:4px;
+	background:#57D497;
+	color:#FFF;
+	display:inline-block;
+	transition:background 0.1s ease;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:400;
+}
+.btn-list-space option {
+	background-color:#999;
+}
+.scriptolution-response-sidebar {
+	padding:15px;
+	font-family:'latobold';
+	font-size:20px;
+	display:none;
+}
+.cuscriptolutionongtitle {
+	background-color:#38B0D9;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	padding-left:8px;
+	display:none;
+}
+.cuscriptolutionongtitle p a.active {
+	background-color:#689c2c;
+}
+.cuscriptolutionongtitle p a {
+	color:#fff;
+	line-height:26px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	display:block;
+	float:left;
+	padding:0 10px;
+	margin-right:4px;
+	line-height:38px;
+}
+.scriptolutiontextbox18 {
+	font-size:18px !important;
+}
+.scriptolutionwidth80 {
+	width:80px !important;
+}
+.searchforscriptolutionmobleonly {
+	display:none
+}
+.scriptolutionpaddingleft15 {
+	padding-left:15px;
+}
+.full-side {
+	padding-top:25px;
+}
+.scriptolutionsecondad {
+	float:right;
+	padding:30px;
+}
+.scriptolutionfiverrscriptitem span {
+	background-color:#689c2c;
+	height:17px;
+	line-height:18px;
+	padding:0 6px;
+	display:inline-block;
+	margin-right:5px;
+	color:#fff;
+}
+#scriptolutionbarnreviews {
+	display:block;
+}
+#scriptolutionbarnreviewsmobile{
+	display:none;
+}
+.scriptolutionmhide {
+	    display: table-cell;
+}
+.scriptolutionmunhide {
+	    display: none;
+}
+@media only screen and (max-width:1000px) {
+	body {
+		overflow-x:hidden;
+	}
+		.centerwrap {
+		width: 100%;
+	}
+	/* 1010 */
+	.scriptolutionmenubutton {
+		display:block !important;
+		float:left;
+		color:#FFF;
+		font-size:24px;
+		padding-left:12px;
+		padding-top:14px;
+	}
+	.header {
+		min-width:751px;
+		height: auto !important;
+	}
+	/* 1106px */
+	.subnav {
+		display:none !important
+	}
+	.scriptolutionmobilecats {
+		display:block;
+	}
+	.banner {
+		min-width: 751px;
+	}
+	/* 1106px */
+	.bannertext {
+		padding-top:58px;
+	}
+	.footer {
+		min-width: 751px;
+	}
+	/* 1106px */
+	.headertop .logo {
+		 padding-left:5% !important;
+	}
+	.headertop .search {
+		float:right !important;
+		margin-right:5px;
+	}
+			.headeright {
+		display:none !important
+	}
+	.logoutheader {
+		display:none !important
+	}
+	.scriptolutionsmain2 {
+		 padding-right:0px !important;
+		 padding-left:calc((100% - 606px)/2) !important;
+	}
+	.cusongsblock {
+		height:auto !important
+	}
+	.newgirl {
+		 width:95% !important;
+		height:auto !important;
+	}
+	.flogo {
+		 float:none !important;
+		 padding-left:0px;
+		 text-align:center;
+	}
+	.footer p {
+			float:none !important;
+			padding-left:40px;
+	}
+	.bottomlink {
+		 float:none !important;
+		 padding-top:20px;
+	}
+	.bottomlink ul {
+		 padding-left:0px;
+		 float:none !important;
+		 text-align:center;
+	}
+	.headercenter {
+		width: 100%;
+	}
+	/* 1040 */
+	.bodyshadow {
+		background:none;
+		width:auto;
+		margin: auto
+	}
+	/* 1306 */
+	.topnavbg {
+		width: 100%;
+	}
+	/* 1010 */
+	.whitebody {
+		width: 100%;
+	}
+	/* 1010 */
+	.tagcloud {
+		width:100%;
+	}
+	.cusongtitle p {
+		display:none;
+	}
+	.cuscriptolutionongtitle {
+		display:block;
+	}
+	.cusongsblock {
+		margin-right:0px;
+	}
+	.noteworthy {
+		float:none;
+		padding-right:17px;
+		width:auto;
+	}
+	.recentperson_data {
+		width:500px;
+	}
+	.footerbg {
+		width:100%;
+		left:0%;
+		margin-left:0px;
+		display: none !important
+	}
+	/* 1010 */
+	.whitebox {
+		width:95%;
+		padding-bottom:20px;
+	}
+	.leftbar {
+		padding-bottom:5px !important;
+		margin-bottom:5px !important;
+		width:20% !important;
+	}
+	.songslist {
+		width:75% !important;
+	}
+	.paging {
+		width:100%;
+	}
+		.newscriptolution {
+		padding:8px 0px;
+	}
+	.newscriptolutiondetails {
+		width:calc(100% - 170px) !important;
+	}
+	.topspace {
+		 padding-top:0px !important;
+	}
+	.scriptolutionaddwhitebg {
+	}
+	.scriptolution60 {
+		padding-top:61px !important;
+	}
+	.searchforscriptolutionmobleonly {
+		display:none !important
+	}
+	.ScriptolutionNoBox {
+		width:95%;
+	}
+	.scriptolutionwidth842 {
+		width:95% !important;
+	}
+	.scriptolutionwidth800 {
+		width:100% !important;
+	}
+					.db-main-table {
+		width:99% !important;
+	}
+	.whiteBox.twoHalfs {
+		width:99% !important;
+	}
+	.left-side {
+		width:75% !important;
+	}
+	.right-side {
+		width:17% !important;
+	}
+	.inner-wrapper {
+		width:95% !important;
+	}
+				.action-steps h5 {
+		height:auto !important;
+	}
+	.mp-box .box-row {
+		width:95% !important;
+	}
+	#action-bar {
+	}
+		.action-bar-orders>.box-row {
+		 padding-right:19px !important;
+	}
+		.whiteBox.inside {
+		width:95% !important;
+	}
+	.scriptolutionshop .whiteBox.inside .block.inside {
+		 width:24% !important;
+	}
+	.scriptolutionpaddingleft15 {
+		padding-left:5px !important;
+	}
+		.newfeaturegig img {
+		width:95% !important;
+	}
+	#scriptolutionPostForm {
+		padding-left:10px;
+	}
+		.scriptolutioneditpages .scriptolutionwidth842 {
+		width:98% !important;
+	}
+	p.tip-text {
+		display:none
+	}
+		.usertopnavbg {
+		 width:100% !important;
+	}
+		.scriptolutionuserreviews {
+		 width:80% !important;
+	}
+	.scriptolutionuserreviews>a {
+		 width:90% !important;
+	}
+	.scriptolutionsecondad {
+		padding:0px !important;
+	}
+		.scriptolutionloginpage .left-side {
+		width:95% !important
+	}
+	.scriptolutionopages .left-side {
+		width:100% !important
+	}
+		.scriptolutionloginpage .scriptolutionwidth482 {
+		width:100% !important
+	}
+		.sidebarArea {
+		width:99% !important
+	}
+	
+	
+	
+	
+	.scripto_lution_rcatwrapper #scriptolution_req_cat {float:left !important;margin-bottom: 10px;}
+	#scriptolution_dotcom_shop h1 {width: 90% !important;}
+
+
+
+
+
+	.sidebarArea a.hugeGreenBtn {
+		width:99% !important
+	}
+	ul.gig-details li span.rating-votes {
+		float:left !important
+	}
+	ul.gig-details li span.rating-positive {
+		padding-left:34%;
+	}
+	.profile-info {
+		 width:60% !important;
+		 padding-left:25% !important;
+	}
+	.order-extras {
+		width:calc(99% - 10px) !important
+	}
+	ul.order-extras-list li {
+		font-size:18px !important
+	}
+		.scriptolutiontrackingpage .action-steps .step-end {
+		display:none
+	}
+		.scriptolutionbookmarks .songslist {
+		 width:99% !important;
+	}
+	.scriptolutionbookmarks .left-side {
+		 width:82% !important;
+	}
+	#scriptolutionbarnreviews {
+		display:none;
+	}
+	#scriptolutionbarnreviewsmobile{
+		display:block;
+	}
+	ul.gig-reviews-list li span.comment { width:90% !important; }
+}
+@media only screen and (max-width:750px) {
+	body {
+		overflow-x:hidden;
+	}
+		.centerwrap {
+		width: 100%;
+	}
+	/* 1010 */
+	.scriptolutionmenubutton {
+		display:block !important;
+		float:left;
+		color:#FFF;
+		font-size:24px;
+		padding-left:12px;
+		padding-top:14px;
+	}
+	.header {
+		min-width:300px;
+		height: auto !important;
+	}
+	/* 1106px */
+	.subnav {
+		display:none !important
+	}
+	.scriptolutionmobilecats {
+		display:block;
+	}
+	.banner {
+		min-width: 300px;
+	}
+	/* 1106px */
+	.find-service {
+		width: 302px;
+	}
+	/* 502px */
+	.findbox {
+		width: 160px;
+	}
+	/* 335 */
+	.findbtn {
+		width:115px;
+		font-size: 15px;
+	}
+	/* 142 */
+	.bannertext {
+		padding-top:28px;
+	}
+	.bannertext h2,.bannertext h3 {
+		 font-size:30px;
+	}
+	.footer {
+		min-width: 300px;
+	}
+	/* 1106px */
+	.headertop .logo {
+		 float:none !important;
+		 padding-left:33% !important;
+	}
+	.headertop .search {
+		display:none !important
+	}
+	.headeright {
+		display:none !important
+	}
+	.logoutheader {
+		display:none !important
+	}
+	.scriptolutionsmain2 {
+		 padding-right:0px !important;
+		 padding-left:calc((100% - 285px)/2) !important;
+	}
+	.cusongsblock {
+		width:95% !important;
+		height:auto !important
+	}
+	.cusongsblock .songperson img {
+		width:100% !important;
+		height:auto !important
+	}
+	.newgirl {
+		 width:95% !important;
+		height:auto !important;
+	}
+	.newgirlimg {
+		 width:100% !important;
+	}
+	.newgirlimg img {
+		width:100% !important;
+		height:auto !important
+	}
+	.newdetails {
+		 width:100% !important;
+		 padding-top:10px;
+	}
+	.flogo {
+		 float:none !important;
+		 padding-left:0px;
+		 text-align:center;
+	}
+	.footer p {
+			float:none !important;
+			padding-left:40px;
+	}
+	.bottomlink {
+		 float:none !important;
+		 padding-top:20px;
+	}
+	.bottomlink ul {
+		 padding-left:0px;
+		 float:none !important;
+		 text-align:center;
+	}
+	.headercenter {
+		width: 100%;
+	}
+	/* 1040 */
+	.bodyshadow {
+		background:none;
+		width:auto;
+		margin: auto
+	}
+	/* 1306 */
+	.topnavbg {
+		width: 100%;
+	}
+	/* 1010 */
+	.whitebody {
+		width: 100%;
+	}
+	/* 1010 */
+	.tagcloud {
+		width: 100%;
+	}
+	/* 1010 */
+	.cusongtitle p {
+		display:none;
+	}
+	.cuscriptolutionongtitle {
+		display:block;
+	}
+	.cusongsblock {
+		margin-right:0px;
+	}
+	.noteworthy {
+		float:none;
+		padding-right:17px;
+		width:auto;
+	}
+	.recentperson_data {
+		width:200px;
+	}
+	.newgirl {
+		width:250px;
+	}
+	.newdetails {
+		width:200px;
+	}
+		.footerbg {
+		width:100%;
+		left:0%;
+		margin-left:0px;
+		display: none !important
+	}
+	/* 1010 */
+	.scriptolution-response-sidebar {
+		display:block;
+	}
+	.whitebox {
+		width:93%;
+		padding-bottom:20px;
+	}
+	.leftbar {
+		width:95% !important;
+		float:none !important;
+		padding-bottom:5px !important;
+		margin-bottom:5px !important;
+	}
+	.songslist {
+		width:99% !important;
+		float:none !important
+	}
+	.paging {
+		width:100%;
+	}
+	.newscriptolution {
+		padding:8px 0px;
+	}
+	.newscriptolutiondetails {
+		width:calc(100% - 170px) !important;
+	}
+	.topspace {
+		 padding-top:0px !important;
+	}
+	.scriptolutionaddwhitebg {
+	}
+	.scriptolution60 {
+		padding-top:61px !important;
+	}
+	#options-by-scriptolution-dotcom {
+		display:none;
+	}
+	.searchforscriptolutionmobleonly {
+		display:block !important
+	}
+	.ScriptolutionNoBox {
+		width:95%;
+	}
+	.scriptolutionwidth842 {
+		width:95% !important;
+	}
+	.scriptolutionwidth800 {
+		width:100% !important;
+	}
+					.db-main-table {
+		width:99% !important;
+	}
+	.whiteBox.twoHalfs {
+		width:99% !important;
+	}
+	.left-side {
+		width:95% !important;
+	}
+	.right-side {
+		width:95% !important;
+	}
+	.inner-wrapper {
+		width:95% !important;
+		margin-left:0px;
+	}
+				.action-steps h5 {
+		height:auto !important;
+	}
+	.mp-box .box-row {
+		width:95% !important;
+	}
+	#action-bar {
+		height:90px !important;
+	}
+		.action-bar-orders>.box-row {
+		 padding-right:9px !important;
+	}
+		.responsivescriptolutionimages {
+		width:100% !important;
+	}
+	.responsivescriptolutionimages img {
+		 width:100% !important;
+		 height:auto !important;
+	}
+			.scriptolutioneditpages #scriptolutionPostForm .column-r {
+		 width:100% !important;
+	}
+		.scriptolutioneditpages .spartfour  {
+			 clear:both;
+	}
+	.scriptolutioneditpages #scriptolutionPostForm .textb {
+			width:90%;
+	}
+	.whitelinks a {
+		 font-size:12px !important;
+	}
+		.scriptolutionuserreviews {
+		 width:100% !important;
+	}
+	.scriptolutionuserreviews>a {
+		 width:75% !important;
+	}
+	.scriptolutionmax375 {
+		max-width:375px !important;
+		display:none
+	}
+	.find-userrating {
+		 width:100% !important;
+	}
+	.scriptolutionsecondad {
+		float:none !important;
+		clear:both;
+	}
+			.contentArea {
+		width:100% !important;
+		margin-left:10px;
+	}
+	ul.gig-extras-list li span.desc {
+		width:70% !important;
+	}
+	ul.gig-details li span.rating-positive {
+		 padding-left:20%;
+	}
+	.more-user-gigs {
+		 padding-left:10px;
+	}
+	.user-gig {
+		 width:100% !important;
+	}
+	.user-gig .gig-thumb img {
+		 width:100% !important;
+		 height:auto !important
+	}
+	.carouselItem,.bx-wrapper img {
+		height:auto !important
+	}
+		.scriptolutiontrackingpage .action-steps .step-end {
+		display:none
+	}
+	.scriptolutionbookmarks .left-side {
+		 width:99% !important;
+		 padding-left: 10px;
+	}
+	.scriptolutionmhide {
+		display: none;
+	}
+	.scriptolutionmunhide {
+			display: table-cell;
+			border-top: 1px #F7F5F5 solid !important;
+	}
+	.whiteBox.padding15 {
+		padding: 10px;
+	}
+}
